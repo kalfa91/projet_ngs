@@ -1,0 +1,59 @@
+<style>
+#formulaire{
+	width: 900px;
+	margin :100px auto;
+}
+
+.formulaire{
+	float: left;
+	width: 400px;
+	border : 1px solid #000;
+	margin-right :5px;
+}
+</style>
+<div id="formulaire">
+
+
+<div class ="formulaire">
+<form method="post" action ="inscription.php">
+<table>
+<h3> INSCRIPTION</h3>
+<tr>
+<td>NUMERO :</td><td><input type ="text" placeholder ="votre numero" name ="numero" required/> </td>
+</tr>
+<tr>
+<td>E-MAIL	:</td><td><input type ="email" placeholder ="votre email" name ="email" required/></td>
+</tr>
+<tr>
+<td>PASSWORD:</td><td><input type ="password" placeholder ="password" name ="mdp" required/></td>
+</tr>
+<tr>
+<td>CONFIRM PASSWORD:</td><td><input type ="password" placeholder ="Confirmer password" name ="Cmdp" required/></td>
+</tr>
+ 
+<td><input type= "submit" name="valider" value ="INSCRIPTION" /></td>
+</table>
+</form>
+</div>
+
+
+
+<div class ="formulaire">
+<form method="post" action ="validation.php">
+<table>
+<h3> CONNEXION</h3>
+<tr>
+<td>ID :</td><td><input type ="text" placeholder ="votre identifiant" name ="id" required/> </td>
+</tr>
+<tr>
+<td>PASSWORD:</td><td><input type ="password" placeholder ="password" name ="mdp" required/></td>
+</tr>
+ 
+<td><input type= "submit" name="valider" value ="SE CONNECTER" /></td>
+
+</form>
+</div>
+
+</div>
+<!--  Script javascript pour controler les valeurs des deux mots de passes-->
+
